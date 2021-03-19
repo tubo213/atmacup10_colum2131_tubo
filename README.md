@@ -26,7 +26,7 @@ docker-compose up -d
     └── tubo_stacking.ipynb  <---- stacking → submission.csv作成
 </pre>
 
-## Usage
+## usage
 ### create_dataset
 すでに作ってあるので飛ばしても大丈夫。
 - tubo
@@ -50,6 +50,6 @@ hogehoge
 stackingして予測結果の保存
 - src/tubo/tubo_stacking.ipynbを上から実行
 
-## Author
+## author
 * tubo
 * colum2131
