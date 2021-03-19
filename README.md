@@ -42,19 +42,10 @@ hogehoge
 ### stage1_model train
 ここも学習結果はすでに保存してある。
 - tubo
-<pre>
-cd src/tubo/
-jupyter nbconvert tubo_model1.ipynb --to python
-</pre>
+    - src/tubo/tubo_model1.ipynbを上から実行
 - colum2131
-<pre>
-cd src/colum2131/
-jupyter nbconvert model1.ipynb --to python
-jupyter nbconvert model12.ipynb --to python
-</pre>
+    - src/colum2131/model1.ipynbを上から実行
+    - src/colum2131/model2.ipynbを上から実行
 ### ensemble
 stackingして予測結果の保存
-<pre>
-cd src/tubo/
-jupyter nbconvert tubo_stacking.ipynb --to python
-</pre>
+- src/tubo/tubo_stackingを上から実行
