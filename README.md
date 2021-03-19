@@ -49,3 +49,7 @@ hogehoge
 ### ensemble
 stackingして予測結果の保存
 - src/tubo/tubo_stacking.ipynbを上から実行
+
+## Author
+* tubo
+* colum2131
