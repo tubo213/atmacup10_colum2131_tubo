@@ -48,4 +48,4 @@ hogehoge
     - src/colum2131/model2.ipynbを上から実行
 ### ensemble
 stackingして予測結果の保存
-- src/tubo/tubo_stackingを上から実行
+- src/tubo/tubo_stacking.ipynbを上から実行
