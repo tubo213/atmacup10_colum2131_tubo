@@ -28,6 +28,7 @@ docker-compose up -d
 
 ## Usage
 ### create_dataset
+すでに作ってあるので飛ばしても大丈夫。
 - tubo
 <pre>
 cd src/tubo/create_dataset
@@ -37,4 +38,23 @@ python run.py
 <pre>
 cd src/colum2131/create_dataset
 hogehoge
+</pre>
+### stage1_model train
+ここも学習結果はすでに保存してある。
+- tubo
+<pre>
+cd src/tubo/
+jupyter nbconvert tubo_model1.ipynb --to python
+</pre>
+- colum2131
+<pre>
+cd src/colum2131/
+jupyter nbconvert model1.ipynb --to python
+jupyter nbconvert model12.ipynb --to python
+</pre>
+### ensemble
+stackingして予測結果の保存
+<pre>
+cd src/tubo/
+jupyter nbconvert tubo_stacking.ipynb --to python
 </pre>
