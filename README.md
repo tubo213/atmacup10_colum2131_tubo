@@ -37,7 +37,12 @@ python run.py
 - colum2131
 <pre>
 cd src/colum2131/create_dataset
-hogehoge
+python generate_img.py
+python img2vec.py
+python generate_bert.py
+python generate_universal.py
+python run_model1.py
+python run_model2.py
 </pre>
 ### stage1_model train
 ここも学習結果はすでに保存してある。
