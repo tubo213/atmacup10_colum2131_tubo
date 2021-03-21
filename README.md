@@ -28,7 +28,6 @@ docker-compose up -d
 
 ## usage
 ### create_dataset
-すでに作ってあるので飛ばしても大丈夫。
 - tubo
 <pre>
 cd src/tubo/create_dataset
@@ -45,7 +44,6 @@ python run_model1.py
 python run_model2.py
 </pre>
 ### stage1_model train
-ここも学習結果はすでに保存してある。
 - tubo
     - src/tubo/tubo_model1.ipynbを上から実行
 - colum2131
