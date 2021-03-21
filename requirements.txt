@@ -1,0 +1,6 @@
+pandarallel
+pickle5
+tensorflow_text
+texthero
+efficientnet
+xfeat
