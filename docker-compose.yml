@@ -1,0 +1,15 @@
+version: '2.3'
+
+services:
+  app:
+    runtime: nvidia
+    build: .
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - ./:/tmp/working
+    working_dir: /tmp/working
+    ports: 
+      - "8888:8888"
+    tty: true
