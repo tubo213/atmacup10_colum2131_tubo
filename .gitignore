@@ -1,0 +1,6 @@
+*.csv
+*.pickle
+*.bin
+features/*
+/.devcontainer
+/.vscode

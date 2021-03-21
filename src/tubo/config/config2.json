@@ -1,0 +1,32 @@
+{
+
+    "lgbm_params":{
+        "boosting_type": "gbdt",
+        "objective": "regression",
+        "metric": "rmse",
+        "num_leaves":30,
+        "learning_rate":0.01,
+        "verbose":-1},
+    
+    "cat_params":{
+        "loss_function": "RMSE",
+        "num_boost_round": 10000,
+        "depth":6,
+        "learning_rate":0.01
+        },
+    "cat_params_binary":{
+        "loss_function": "Logloss",
+        "num_boost_round": 10000,
+        "depth":6,
+        "learning_rate":0.01
+        },
+    
+    "xgb_params":{
+        "max_depth": 7,
+        "lambda":10, 
+        "objective": "reg:squarederror",
+        "eval_metric":"rmse",
+        "tree_method":"gpu_hist",
+        "learning_rate":0.01}
+    
+    }
