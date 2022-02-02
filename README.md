@@ -1,5 +1,5 @@
 # atmacup10_colum2131_tubo
-atmaCup#10 提出用リポジトリ
+atmaCup#10 3rd Place Solution 提出用リポジトリ
 
 ## requirements
 * Docker 20.10.5
